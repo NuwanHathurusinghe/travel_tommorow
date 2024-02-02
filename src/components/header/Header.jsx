@@ -2,7 +2,7 @@ import React from 'react'
 import './header.css'
 import Card from '../card/Card'
 import {data} from '../../data'
-import logo from '../../statics/lg.png'
+import logo from '../../statics/Logo1.png'
 
 function Header() {
   return (
