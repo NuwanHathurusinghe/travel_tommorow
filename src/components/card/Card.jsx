@@ -1,6 +1,5 @@
 import React from 'react'
 import './card.css'
-import img from '../../statics/1.jpg'
 function Card(props) {
   return (
     <div className="card slide">

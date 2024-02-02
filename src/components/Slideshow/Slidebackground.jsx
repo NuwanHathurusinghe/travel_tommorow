@@ -7,9 +7,9 @@ const Slideshow = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 1500, // adjust the speed as needed
+    speed: 1500,
     autoplay: true,
-    autoplaySpeed: 3000, // adjust the duration for each slide
+    autoplaySpeed: 3000, 
     slidesToShow: 1,
     slidesToScroll: 1,
     fade: true,

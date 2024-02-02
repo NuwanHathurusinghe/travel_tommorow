@@ -4,7 +4,7 @@ import Card from "../../components/card/Card"
 
 import React from 'react'
 
-const colors = ["#0088FE", "#00C49F", "#FFBB28","#FFFFFF"];
+const colors = ["#0088FE", "#00C49F", "#FFBB28","#FFFFFF","#FFFFFF","#FFFFFF"];
 const delay = 5000;
 
 function Slideshow() {
