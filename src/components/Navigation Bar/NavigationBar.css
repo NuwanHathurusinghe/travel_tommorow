@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 15px;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0); /* Transparent black background */
+    width: 100%;
+    padding: 10px 20px;
+    z-index: 1000;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  li {
+    margin: 0 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Your Chosen Font', serif;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: lightblue;
+  }
+  
+  a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #30bfbf;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  a:hover::after {
+    width: 100%;
+  }
+  
+  .profile-icon img {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #30bfbf;
+  }
