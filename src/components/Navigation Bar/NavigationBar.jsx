@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavigationBar.css';
-import '../../statics/user.png';
+import image from '../../statics/user.png'
 
 const NavigationBar = () => {
   return (
@@ -10,7 +10,7 @@ const NavigationBar = () => {
         <li><a href="#locations">Locations</a></li>
         <li><a href="#hotels">Hotels</a></li>
         <li><a href="#login-register">Login/Register</a></li>
-        <li className="profile-icon"><a href="#profile"><img src="user.png" /></a></li>
+        <li className="profile-icon"><a href="#profile"><img src={image} /></a></li>
       </ul>
     </div>
   );
