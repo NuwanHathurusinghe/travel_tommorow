@@ -1,0 +1,67 @@
+.events-form-container {
+    /* background: url('G:\University\3rd Year\2nd Sem\Full Stack\travel_tommorow\src\statics\FormBack.jpg') center/cover; */
+    backdrop-filter: blur(100px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    overflow: hidden;
+  }
+  
+  .events-form-container::after{
+    content:'';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    color: #30bfbf;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline-width: 0;
+  }
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="file"] {
+  width: calc(100% - 18px);
+}
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
