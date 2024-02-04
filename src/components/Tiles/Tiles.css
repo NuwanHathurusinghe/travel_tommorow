@@ -1,0 +1,28 @@
+.event {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    position: relative;
+  }
+  .event::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left:0;
+    background-color: rgba(0,0,0,0.5);;
+  }
+  .container {
+    padding: 2px 16px;
+  }
+  #img{
+    height: 100%;
+    object-fit:contain;
+}
+@media screen and (min-width:920px) {
+  #img{
+    width: 100vw;
+    object-fit:cover;
+}
+}
