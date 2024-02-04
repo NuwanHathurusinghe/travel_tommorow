@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import Card from '../card/Card'
-import {data} from '../../data'
+import {data} from '../../Tiledata'
 import logo from '../../statics/Logo1.png'
 
 function Header() {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavigationBar.css';
-import '../../statics/user.png'
+import '../../statics/user.png';
 
 const NavigationBar = () => {
   return (
