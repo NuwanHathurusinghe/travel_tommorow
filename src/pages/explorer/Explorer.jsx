@@ -1,15 +1,22 @@
 import React from 'react'
-import Events from './components/Tiles/EventsTile';
 
-function explorer() {
+
+import EventsTile from '../../components/Tiles/EventsTile';
+import Header from '../../components/header/Header';
+
+
+
+function Explorer() {
   return (
     <div>
-      <Events/>
+      <Header backgrounColor={"black"}/>
+      <h1>Events</h1>
+      <EventsTile/>
     </div>
   )
 }
 
-export default explorer
+export default Explorer
 
 
 

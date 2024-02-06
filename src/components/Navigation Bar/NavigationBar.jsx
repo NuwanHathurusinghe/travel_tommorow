@@ -1,10 +1,12 @@
 import React from 'react';
 import './NavigationBar.css';
 import image from '../../statics/user.png'
+import logo from '../../statics/Logo1.png'
 
-const NavigationBar = () => {
+const NavigationBar = (props) => {
   return (
-    <div className="navbar">
+    <div className="navbar" style={{background:props.backgroundColor}} >
+      <img src={logo} id='logo'></img>
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#locations">Locations</a></li>

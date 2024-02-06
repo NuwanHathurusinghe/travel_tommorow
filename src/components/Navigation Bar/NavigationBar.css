@@ -3,10 +3,10 @@ body {
     font-family: 'Arial', sans-serif;
   }
   
+  #logo{
+    float: left;
+  }
   .navbar {
-    position: fixed;
-    top: 15px;
-    right: 0;
     background-color: rgba(0, 0, 0, 0); /* Transparent black background */
     width: 100%;
     padding: 10px 20px;

@@ -1,16 +1,13 @@
 import React from 'react'
 import './header.css'
-import Card from '../card/Card'
-import {data} from '../../Tiledata'
 import logo from '../../statics/Logo1.png'
 import NavigationBar from '../Navigation Bar/NavigationBar'
 
-function Header() {
+function Header(props) {
   return (
     <nav id='header'>
-      {/* {data?.map((person)=>(<Card name={person.name} profession ={person.porfession}/>))} */}
-      <NavigationBar/>
-      <img src={logo} id='logo'></img>
+      <NavigationBar backgroundColor={props.backgrounColor}/>
+      
       </nav>
   )
 }
