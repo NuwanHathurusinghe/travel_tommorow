@@ -1,28 +1,58 @@
-.event {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 20%;
-    position: relative;
-  }
-  .event::after{
-    content: '';
-    height: 100%;
-    width: 100%;
-    position:absolute;
-    top: 0;
-    left:0;
-    background-color: rgba(0,0,0,0.5);;
-  }
-  .container {
-    padding: 2px 16px;
-  }
-  #img{
-    height: 100%;
-    object-fit:contain;
+.event-tile-container{
+  margin:0 auto;
+  width: fit-content;
 }
-@media screen and (min-width:920px) {
-  #img{
-    width: 100vw;
-    object-fit:cover;
+.events{
+  display: flex;
+  gap:4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
+.tile{
+  width: 20%;
+  min-width:315px;
+  height: 250px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.event-img-container{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+}
+.event-img{
+  height: 100%;
+  object-fit: cover;
+}
+.event-tile-container{
+  padding: 1rem;
+}
+.event-title{
+  background: #ffffff;
+}
+
+.event-tile-description{
+  background-color: rgba(0, 0, 0, 0.733);
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: -3rem;
+  transition: bottom 200ms ease-in;
+  overflow: hidden;
+}
+.event-tile-description-text{
+  color: #ffffff;
+}
+.event-tile-description{
+}
+.tile:hover .event-tile-description{
+  bottom: 0;
 }
