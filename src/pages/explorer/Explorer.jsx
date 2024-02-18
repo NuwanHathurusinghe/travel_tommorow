@@ -1,8 +1,7 @@
 import React from 'react'
 
-
-import EventsTile from '../../components/Tiles/EventsTile';
 import Header from '../../components/header/Header';
+import DestinationsTile from '../../components/Tiles/DestinationTile';
 
 
 
@@ -10,8 +9,8 @@ function Explorer() {
   return (
     <div>
       <Header backgrounColor={"black"}/>
-      <h1>Events</h1>
-      <EventsTile/>
+      <h1>Destinations</h1>
+      <DestinationsTile/>
     </div>
   )
 }
