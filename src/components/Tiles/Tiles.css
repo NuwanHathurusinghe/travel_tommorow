@@ -4,14 +4,14 @@
 }
 .events{
   display: flex;
-  gap:4rem;
+  gap:2rem;
   flex-wrap: wrap;
   justify-content: center;
 
 }
 .tile{
-  width: 20%;
-  min-width:315px;
+  width: 10%;
+  min-width:160px;
   height: 250px;
   border-radius: 10px;
   border: 1px solid rgb(0, 0, 0);
