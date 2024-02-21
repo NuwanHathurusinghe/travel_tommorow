@@ -1,5 +1,5 @@
 import React from 'react'
-import data from '../../Tiledata.js'
+import data from '../../Tiledata1.js'
 import '../Tiles/Tiles.css'
 
 const DestinationsTile=({title,description,imageUrl})=>{
