@@ -6,7 +6,7 @@
   }
   
   .slideshowSlider {
-    white-space: nowrap;
+    white-space: wrap;
     transition: ease-out 1000ms;
   }
   
@@ -18,7 +18,7 @@
   }
   
   /* Buttons */
-  
+   
   .slideshowDots {
     text-align: center;
     transform: translateY(-60px);

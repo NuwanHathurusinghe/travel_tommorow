@@ -13,10 +13,11 @@ function Explorer() {
       <Header backgrounColor={"black"}/>
       <h1>Events</h1>
       <EventsTile/>
-      <h1>Destinations</h1>
-      <DestinationsTile/>
       <h1>Places</h1>
       <PlacesTile/>
+      <h1>Destinations</h1>
+      <DestinationsTile/>
+      
       
     </div>
   )

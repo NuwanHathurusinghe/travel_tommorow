@@ -11,8 +11,6 @@ const EventsTile=({title,description,imageUrl})=>{
             <div key={item.id} className="tile">
               <h3 className='event-title'>{item.title}</h3>
               <div className='event-img-container'><img src={item.imageURL} className="event-img"/></div>
-              <div className='event-tile-description'>
-              <p className='event-tile-description-text'>{item.description}</p></div>
             </div>))}
         </div>       
       </div>
