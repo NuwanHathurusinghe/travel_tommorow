@@ -4,9 +4,9 @@ import Hero from '../../components/hero/hero'
 
 function Home() {
   return (
-    <>
+    <div>
      <Header/>
-      <Hero/></>
+      <Hero/></div>
   )
 }
 
