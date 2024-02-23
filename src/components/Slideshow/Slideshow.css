@@ -6,7 +6,7 @@
   }
   
   .slideshowSlider {
-    white-space: wrap;
+    white-space: wrap; 
     transition: ease-out 1000ms;
   }
   

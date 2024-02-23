@@ -7,7 +7,7 @@ function Card(props) {
   <div className="container">
   </div>
 </div>
-  )
+  ) 
 }
 
 export default Card

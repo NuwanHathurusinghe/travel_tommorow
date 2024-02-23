@@ -11,7 +11,7 @@ function Slideshow() {
   const [index, setIndex] = React.useState(0);
   const timeoutRef = React.useRef(null);
 
-  function resetTimeout() {
+  function resetTimeout() {        
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
     }

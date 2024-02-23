@@ -13,7 +13,7 @@ const Slideshow = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     fade: true,
-    arrows: false,
+    arrows: false, 
     responsive: [
       {
         breakpoint: 768,
